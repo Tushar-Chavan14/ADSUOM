@@ -1,4 +1,4 @@
-// 2. Program to perform Array reversal
+// 3. Program to perform Array reversal
 #include <iostream>
 using namespace std;
 
