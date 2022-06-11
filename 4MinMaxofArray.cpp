@@ -1,4 +1,4 @@
-// 2. Program to get min/max number in an array
+// 4. Program to get min/max number in an array
 #include <iostream>
 using namespace std;
 
