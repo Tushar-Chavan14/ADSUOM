@@ -4,16 +4,17 @@ using namespace std;
 
 int main()
 {
-    int i, a[10], n;
-    cout << "Enter array size " << endl;
+    int a[10], n;
+    cout << "enter the size of array: " << endl;
     cin >> n;
-    for (i = 0; i < n; cin >> a[i], i++)
+    for (int i = 0; i <= n; cin >> a[i++])
         ;
-    for (i = 0; i < n; cout << a[i], i++)
+    cout << "the elements entered are :";
+    for (int i = 0; i <= n; cout << a[i++])
+        ;
+    cout << "In reverse order : ";
+    for (int i = n; i >= 0; cout << a[i--])
         ;
     cout << endl;
-    cout << "In reverse order " << endl;
-    for (i = n - 1; i >= 0; cout << a[i], --i)
-        ;
     return 0;
 }
